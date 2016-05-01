@@ -8,19 +8,19 @@ body {
   background-color: #E4E7EA;
 }
 a {
-  color: #cddc39;
+  color: @accent_color;
 }
 a:hover {
-  color: #3f51b5;
+  color: @primary_color;
 }
 .bg-image.no-image {
-  background-color: #3f51b5;
+  background-color: @primary_color;
 }
 
 /* --- Navbar --------------------------------------------------------------- */
 
 .navbar {
-  background-color: #3f51b5;
+  background-color: @primary_color;
   color: white;
 }
 .navbar a {
@@ -38,7 +38,7 @@ a:hover {
   color: white;
 }
 .header .navbar.fixed.autohide.show {
-  background-color: #3f51b5;
+  background-color: @primary_color;
 }
 .header--subtitle {
   color: #ddd;
@@ -52,15 +52,15 @@ a:hover {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: #3f51b5;
+  border-color: @primary_color;
 }
 .post--content p > code {
-  background-color: #c5cae9;
-  color: #3f51b5;
+  background-color: @light_primary_color;
+  color: @primary_color;
 }
 .post--content blockquote {
-  background-color: #c5cae9;
-  border-color: #3f51b5;
+  background-color: @light_primary_color;
+  border-color: @primary_color;
 }
 .post--tags a {
   color: #888;
@@ -92,14 +92,14 @@ a:hover {
   background-color: rgba(0,0,0,.05);
 }
 .author--media {
-  background-color: #3f51b5;
+  background-color: @primary_color;
 }
 
 /* --- FABs ----------------------------------------------------------------- */
 
 .fab {
   color: white;
-  background-color: #cddc39;
+  background-color: @accent_color;
 }
 .fab:hover {
   color: white;
@@ -109,7 +109,7 @@ a:hover {
 
 .button.solid {
   color: white;
-  background-color: #cddc39;
+  background-color: @accent_color;
 }
 
 /* --- Waves ---------------------------------------------------------------- */
@@ -121,23 +121,23 @@ a:hover {
 /* --- Footer --------------------------------------------------------------- */
 
 .footer {
-  background-color: #3f51b5;
+  background-color: @primary_color;
 }
 .footer a {
-  color: #c5cae9;
+  color: @light_primary_color;
 }
 .footer a:hover {
-  color: #ffffff;
+  color: @text_icons;
 }
 .footer--top {
-  color: #c5cae9;
+  color: @light_primary_color;
 }
 .footer--bottom a {
-  color: #303f9f;
+  color: @dark_primary_color;
 }
 .footer--bottom a:hover {
-  color: #c5cae9;
+  color: @light_primary_color;
 }
 .footer--bottom {
-  color: #303f9f;
+  color: @dark_primary_color;
 }
