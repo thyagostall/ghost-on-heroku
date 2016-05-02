@@ -133,11 +133,11 @@ a:hover {
   color: #c5cae9;
 }
 .footer--bottom a {
-  color: #303f9f;
-}
-.footer--bottom a:hover {
   color: #c5cae9;
 }
+.footer--bottom a:hover {
+  color: #ffffff;
+}
 .footer--bottom {
-  color: #303f9f;
+  color: #c5cae9;
 }
